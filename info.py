@@ -22,7 +22,7 @@ else:
     ON_HEROKU = False
 URL = environ.get("URL", "")
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '0'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002201298270'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6299192020').split()]
 
 # MongoDB information
