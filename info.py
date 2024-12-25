@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'Awt_bots')
 API_ID = int(environ.get('API_ID', '21740783'))
 API_HASH = environ.get('API_HASH', 'a5dc7fec8302615f5b441ec5e238cd46')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7116266807:AAGdvkZKT4WxbE5qT1RSfJPoFh0TGxtaneg")
 
 # Bot settings
 PORT = environ.get("PORT", "8030")
